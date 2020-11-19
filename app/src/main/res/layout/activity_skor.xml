@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkorActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/temarengim"
+            android:textAlignment="center"
+            android:textSize="27sp"
+            android:padding="10dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sonuç"
+            android:textColor="@color/temarengim"
+            android:textAlignment="center"
+            android:textSize="38sp"
+            android:padding="24dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doğru: 0 Yanlış: 0"
+            android:textColor="@color/temarengim"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:padding="24dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Çok İyi"
+            android:textColor="@color/temarengim"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:padding="24dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bitir_button"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/cerceve_tasarim"
+        android:text="BİTİR"
+        android:textColor="@color/temarengim"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "133905510623",
+    "firebase_url": "https://quizzone-c66d1.firebaseio.com",
+    "project_id": "quizzone-c66d1",
+    "storage_bucket": "quizzone-c66d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133905510623:android:9a9e7e084e0dae8073396a",
+        "android_client_info": {
+          "package_name": "com.k.quizzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133905510623-hvr66ctg1e1vj571m08vp9v5ec7ts979.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7fHAk2hXt6eUN92_215CsYF9J7Ex9Eug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133905510623-hvr66ctg1e1vj571m08vp9v5ec7ts979.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
